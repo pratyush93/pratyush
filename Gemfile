@@ -26,11 +26,11 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 group :development do 
-	gem 'rspec-rails','2.0.0.beta.18'
+	gem 'rspec-rails','>=2.0.0.beta.18'
 	
 end
 group :test do 
-	gem 'rspec','2.0.0.beta.18'
+	gem 'rspec','>=2.0.0.beta.18'
 	
 end
 # Use unicorn as the app server
